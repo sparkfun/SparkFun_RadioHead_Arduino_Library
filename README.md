@@ -5,24 +5,25 @@ This is the SparkFun fork of the RadioHead library by Mike McCauley. The origina
 
 Description from the original documentation: 
 -------------------------------------------
-_"This is the RadioHead Packet Radio library for embedded microprocessors. It provides a complete object-oriented library for sending and receiving packetized messages via a variety of common data radios and other transports on a range of embedded microprocessors.
+_This is the RadioHead Packet Radio library for embedded microprocessors. It provides a complete object-oriented library for sending and receiving packetized messages via a variety of common data radios and other transports on a range of embedded microprocessors._
 
-The version of the package that this documentation refers to can be downloaded from http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.41.zip You can find the latest version at http://www.airspayce.com/mikem/arduino/RadioHead
-You can also find online help and discussion at http://groups.google.com/group/radiohead-arduino Please use that group for all questions and discussions on this topic. Do not contact the author directly, unless it is to discuss commercial licensing. Before asking a question or reporting a bug, please read
-http://en.wikipedia.org/wiki/Wikipedia:Reference_desk/How_to_ask_a_software_question
-http://www.catb.org/esr/faqs/smart-questions.html
-http://www.chiark.greenend.org.uk/~shgtatham/bugs.html
-Overview
-RadioHead consists of 2 main sets of classes: Drivers and Managers.
+_The version of the package that this documentation refers to can be downloaded from http://www.airspayce.com/mikem/arduino/RadioHead/RadioHead-1.41.zip You can find the latest version at http://www.airspayce.com/mikem/arduino/RadioHead_
+_You can also find online help and discussion at http://groups.google.com/group/radiohead-arduino Please use that group for all questions and discussions on this topic. Do not contact the author directly, unless it is to discuss commercial licensing. Before asking a question or reporting a bug, please read:_
+_http://en.wikipedia.org/wiki/Wikipedia:Reference_desk/How_to_ask_a_software_question_
+_http://www.catb.org/esr/faqs/smart-questions.html_
+_http://www.chiark.greenend.org.uk/~shgtatham/bugs.html_
 
-*Drivers provide low level access to a range of different packet radios and other packetized message transports.
-*Managers provide high level message sending and receiving facilities for a range of different requirements.
-Every RadioHead program will have an instance of a Driver to provide access to the data radio or transport, and a Manager that uses that driver to send and receive messages for the application. The programmer is required to instantiate a Driver and a Manager, and to initialise the Manager. Thereafter the facilities of the Manager can be used to send and receive messages.
+_###Overview_
 
-It is also possible to use a Driver on its own, without a Manager, although this only allows unaddressed, unreliable transport via the Driver's facilities.
+_RadioHead consists of 2 main sets of classes: Drivers and Managers._
+
+_Drivers provide low level access to a range of different packet radios and other packetized message transports. Managers provide high level message sending and receiving facilities for a range of different requirements.
+Every RadioHead program will have an instance of a Driver to provide access to the data radio or transport, and a Manager that uses that driver to send and receive messages for the application. The programmer is required to instantiate a Driver and a Manager, and to initialise the Manager. Thereafter the facilities of the Manager can be used to send and receive messages._
+
+_It is also possible to use a Driver on its own, without a Manager, although this only allows unaddressed, unreliable transport via the Driver's facilities.
 In some specialised use cases, it is possible to instantiate more than one Driver and more than one Manager.
 A range of different common embedded microprocessor platforms are supported, allowing your project to run on your choice of processor.
-Example programs are included to show the main modes of use."_
+Example programs are included to show the main modes of use._
 
 Repository Contents
 -------------------
@@ -49,4 +50,4 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_Based off of the original RadioHead library by Mike McCauley _
+_Based off of the original RadioHead library by Mike McCauley_
